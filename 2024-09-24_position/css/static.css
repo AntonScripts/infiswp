@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 250px;
+  margin-bottom: 500px;
+}
+
+
+.static-div {
+  position: static;
+  background-color: lightblue;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.static-div-two {
+  position: static;
+  background-color: lightpink;
+  margin-left: 10px;
+}
+
+/* position static ist die Standart Positionierungseinstellung
+in css. Ich kann also position: static; auch einfach weg lassen.*/

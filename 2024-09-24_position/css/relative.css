@@ -1,0 +1,27 @@
+body {
+  background-color: beige;
+}
+
+
+.relative-div {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightblue;
+
+}
+
+.relative-div-two {
+  background-color: lightpink;
+  top: 20px;
+  left: 400px;
+  z-index: 1;
+
+}
+
+/* Durch den z-index kann ich das eine Objekt unter das andere schieben. */

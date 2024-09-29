@@ -1,0 +1,25 @@
+body {
+  background-color: beige;
+  margin: 0;
+}
+
+.sticky-div {
+  position: sticky;
+  background-color: lightblue;
+  height: 25px;
+  text-align: center;
+  top: 10px;
+  left: 0;
+  border-radius: 60px;
+}
+
+.static-div {
+  height: 400px;
+  width: 400px;
+  background-color: lightpink;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 1500px;
+}
+
+/* das sticky element auf deutsch klebrig.. bleibt einfach beim herunterscrollen beim div hängen/kleben... zum Unterschied zu fixed. Dieses kannn dies nemlich nicht.  */

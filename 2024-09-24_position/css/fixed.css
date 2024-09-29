@@ -1,0 +1,27 @@
+body {
+  background-color: beige;
+  margin-top: 30px;
+  margin-bottom: 1000px;
+}
+
+.fixed-div {
+  background-color: lightpink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 25px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.static-div {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border-radius: 10px;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  text-align: center;
+}

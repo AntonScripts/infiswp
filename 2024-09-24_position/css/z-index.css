@@ -1,0 +1,17 @@
+.absolute-div {
+  position: absolute;
+  background-color: lightpink;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.absolute-div-two {
+  background-color: lightblue;
+  top: 100px;
+  left: 100px;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+}
