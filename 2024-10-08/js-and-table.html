@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar mit Uhr</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+
+      <button id="stopBtn" class="btn btn-danger">Stop Watch</button>
+
+
+      <span class="font-weight-bold" id="clock" class="navbar-text mx-auto">00:00:00</span>
+
+
+      <button id="startBtn" class="btn btn-success">Start Watch</button>
+    </div>
+  </nav>
+
+
+
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nr</th>
+        <th scope="col">Marke</th>
+        <th scope="col">Model</th>
+        <th scope="col">Preis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Ferari</td>
+        <td>812 Superfast</td>
+        <td>350 000</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Audi</td>
+        <td>R8</td>
+        <td>200 000</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Lamborghini</td>
+        <td>Aventador SVJ</td>
+        <td>600 000</td>
+      </tr>
+
+      <tr>
+        <th scope="row">T</th>
+        <td class="text-center font-weight-bold" colspan="2">Gesamtpreis</td>
+        <td>600 000</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+
+
+  <script src="script/js-table.js"></script>
+</body>
+
+</html>
