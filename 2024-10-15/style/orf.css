@@ -105,3 +105,10 @@ img {
   cursor: pointer;
   color: #a5bace;
 }
+
+.hidden-text {
+  display: none;
+  margin-left: 15%;
+  margin-top: 5px;
+  color: #333;
+}

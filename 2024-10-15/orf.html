@@ -12,6 +12,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style/orf.css">
+  <script src="script/orf.js"></script>
 
 </head>
 
@@ -69,13 +70,36 @@
           <p class="ausland-font">AUSLAND</p>
         </div>
         <div>
-          <p class="underlin-hover">Nahost: Tausende demonstrieren in Brüssel für Waffenruhe</p>
-          <p class="underlin-hover">Medien: USA prüfen Geheimdienstleak zu Israels Iran-Plänen</p>
-          <p class="underlin-hover">Höhere Wahlbeteiligung bei Präsidentenwahl in Moldawien</p>
-          <p class="underlin-hover">Serbiens Präsident telefonierte nach langer Pause mit Putin</p>
-          <p class="underlin-hover">US-Wahl: Musk will täglich eine Mio. Dollar verschenken</p>
-          <p class="underlin-hover">Israel ordnet rechtliche Schritte gegen Macron an</p>
-          <p class="underlin-hover">Opposition demonstriert gegen spanische Regierung in Madrid</p>
+          <p class="underlin-hover" onclick="toggleText(0)">Nahost: Tausende demonstrieren in Brüssel für Waffenruhe</p>
+          <p class="hidden-text" id="hidden-text-0">In Brüssel haben Tausende Menschen für eine Waffenruhe im
+            Nahost-Konflikt demonstriert...</p>
+
+          <p class="underlin-hover" onclick="toggleText(1)">Medien: USA prüfen Geheimdienstleak zu Israels Iran-Plänen
+          </p>
+          <p class="hidden-text" id="hidden-text-1">Berichten zufolge prüfen die USA ein mögliches Geheimdienstleck, das
+            Israels Pläne im Iran betreffen könnte...</p>
+
+          <p class="underlin-hover" onclick="toggleText(2)">Höhere Wahlbeteiligung bei Präsidentenwahl in Moldawien</p>
+          <p class="hidden-text" id="hidden-text-2">Die Präsidentenwahl in Moldawien hat eine höhere Wahlbeteiligung als
+            erwartet verzeichnet...</p>
+
+          <p class="underlin-hover" onclick="toggleText(3)">Serbiens Präsident telefonierte nach langer Pause mit Putin
+          </p>
+          <p class="hidden-text" id="hidden-text-3">Nach einer längeren Pause hat Serbiens Präsident erneut mit Wladimir
+            Putin telefoniert, um politische Themen zu besprechen...</p>
+
+          <p class="underlin-hover" onclick="toggleText(4)">US-Wahl: Musk will täglich eine Mio. Dollar verschenken</p>
+          <p class="hidden-text" id="hidden-text-4">Elon Musk hat angekündigt, im Vorfeld der US-Wahlen täglich eine
+            Million Dollar zu verschenken...</p>
+
+          <p class="underlin-hover" onclick="toggleText(5)">Israel ordnet rechtliche Schritte gegen Macron an</p>
+          <p class="hidden-text" id="hidden-text-5">Die israelische Regierung hat rechtliche Schritte gegen den
+            französischen Präsidenten Emmanuel Macron eingeleitet...</p>
+
+          <p class="underlin-hover" onclick="toggleText(6)">Opposition demonstriert gegen spanische Regierung in Madrid
+          </p>
+          <p class="hidden-text" id="hidden-text-6">In Madrid gingen zahlreiche Menschen auf die Straßen, um gegen die
+            spanische Regierung zu demonstrieren...</p>
         </div>
 
 
