@@ -1,0 +1,107 @@
+.header-orf {
+  background-color: #4371a3;
+}
+
+.bg-orf {
+  background-color: #5286c1;
+
+}
+
+.news-font-color {
+  color: #a5bace;
+}
+
+.margin {
+  margin-right: 45%;
+  margin-left: 8%;
+  margin-bottom: 10%;
+}
+
+body {
+  margin: 0;
+}
+
+.darkblue {
+  background-color: #12375c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  padding: 0;
+}
+
+.grid-item {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.large-item {
+  grid-column: span 1;
+  grid-row: span 2;
+  s
+}
+
+.wide-item {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.small-item {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 100%;
+  background-color: white;
+  border: 0;
+}
+
+.underlin-hover {
+  margin-left: 15%;
+  color: #5286c1;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.underlin-hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ausland-font {
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-color:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #a5bace;
+}

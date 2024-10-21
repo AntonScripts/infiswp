@@ -1,0 +1,41 @@
+body {
+    background-color: #fefbe9;
+}
+
+h1 {
+    color: #f6c453;
+    text-align: center;
+
+}
+
+button {
+    background-color: #e1eedd;
+    text-emphasis-color: rgb(255, 0, 0);
+
+}
+
+button:hover {
+    background-color: #b3af96;
+
+}
+
+
+header {
+    text-align: right;
+}
+
+hr {
+    border-color: green;
+}
+
+.header-container {
+    display: flex;
+    /* somit werden alle Elemente im container in eine Zeile gebracht. */
+    justify-content: space-between;
+    /* Elemente gleichmäßig verteilen */
+    align-items: center;
+}
+
+.header-item {
+    padding: 0.5px;
+}
