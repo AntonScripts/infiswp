@@ -1,0 +1,14 @@
+.container-css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav {
+  margin: 0px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
