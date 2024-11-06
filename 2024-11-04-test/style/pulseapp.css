@@ -1,0 +1,146 @@
+:root {
+  --color-primary: #00ad6a;
+  --color-secondary: #eafaf1;
+  --color-accent: #1fe374;
+  --color-dark: #080c16;
+  --color-light: #d6dae5;
+  --color-background: #fcfcfc;
+}
+
+body {
+  background-color: #fcfcfc !important;
+}
+
+
+
+
+#nav-pulseapp {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-right {
+  display: flex;
+  flex: row;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin-right: 5%;
+}
+
+#logo-pulse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10fr;
+  padding: 2%;
+
+
+}
+
+
+.header-color {
+  color: #00ad6a;
+  font-weight: bold;
+
+}
+
+.header-color:hover {
+  cursor: pointer;
+}
+
+.header-color:active {
+  color: #080c16;
+}
+
+
+
+button {
+  border: none;
+  color: #00ad6a;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  border: solid;
+  border-color: #00ad6a;
+}
+
+#text-30-days {
+  margin-top: 5%;
+  font-weight: bolder !important;
+  font-size: larger;
+  color: #080c16;
+}
+
+#text-See-why {
+  color: #080c16 !important;
+}
+
+#grid-item {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 !important;
+}
+
+.grid-items {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#grid-1 {
+  width: 100%;
+}
+
+#grid-2 {
+  width: 100% !important;
+}
+
+#grid-3 {
+  width: 100%;
+  ;
+}
+
+#recommended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  padding: 1%;
+  background-color: #d6dae5 !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#faq {
+  font-weight: bold;
+}
+
+#text-subvert {
+  color: #00ad6a;
+  font-size: small;
+  margin-bottom: 5px !important;
+}
+
+#m-pulse-text {
+  margin-top: 0;
+
+}
+
+#background-1 {
+  background-color: #eafaf1;
+}
+
+#grid-item-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid */
+}
