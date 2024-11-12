@@ -86,6 +86,26 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+#grid-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#grid-2 {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: #00ad6a;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+}
+
+#grid-3 {
+  display: flex;
+  justify-content: center;
+}
+
 #recommended {
   display: flex;
   justify-content: center;
@@ -93,9 +113,11 @@ button:hover {
   height: 50%;
   width: 100%;
   padding: 1%;
-  background-color: #d6dae5 !important;
+  background-color: #00ad6a !important;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  font-size: x-small;
+  color: white;
 }
 
 #faq {
@@ -143,7 +165,7 @@ button:hover {
   margin-top: 10%;
 }
 
-#button-sign-up:active{
+#button-sign-up:active {
   opacity: 0.5;
 }
 
@@ -153,17 +175,16 @@ button:hover {
   color: #d6dae5;
 }
 
-#grid-item-5{
+#grid-item-5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10%;
   gap: 3%;
 }
 
-.grid-items-5{
+.grid-items-5 {
   display: flex;
   justify-content: center;
   color: #00ad6a;
   cursor: pointer;
 }
-
