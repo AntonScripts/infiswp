@@ -34,7 +34,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 10fr;
-  padding: 2%;
+  padding: 3%;
 
 
 }
@@ -81,31 +81,9 @@ button:hover {
   color: #080c16 !important;
 }
 
-#grid-item {
-  margin-top: 50px;
+#grid-item-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0 !important;
-}
-
-.grid-items {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-#grid-1 {
-  width: 100%;
-}
-
-#grid-2 {
-  width: 100% !important;
-}
-
-#grid-3 {
-  width: 100%;
-  ;
 }
 
 #recommended {
@@ -122,6 +100,8 @@ button:hover {
 
 #faq {
   font-weight: bold;
+  margin-left: 10%;
+  margin-bottom: -8%;
 }
 
 #text-subvert {
@@ -143,4 +123,47 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid */
+  gap: 2%;
+  padding: 10%;
 }
+
+#background-3 {
+  background: #080c16;
+}
+
+#grid-item-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+}
+
+#button-sign-up {
+  background: #00ad6a;
+  color: #080c16;
+  margin-top: 10%;
+}
+
+#button-sign-up:active{
+  opacity: 0.5;
+}
+
+#right-text-footer {
+  margin-top: 30%;
+  font-size: x-small;
+  color: #d6dae5;
+}
+
+#grid-item-5{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10%;
+  gap: 3%;
+}
+
+.grid-items-5{
+  display: flex;
+  justify-content: center;
+  color: #00ad6a;
+  cursor: pointer;
+}
+
