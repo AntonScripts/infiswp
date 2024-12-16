@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "_comment": "Definiert Aufgaben, die ausgeführt werden können.",
+    "start": "deno run --allow-read --allow-write --allow-env --allow-net --allow-ffi app.ts"
+  },
+  "imports": {
+    "_comment": "Externe Module, die in diesem Projekt benötigt werden.",
+    "@std/assert": "jsr:@std/assert@^1.0.8"
+  }
+}
