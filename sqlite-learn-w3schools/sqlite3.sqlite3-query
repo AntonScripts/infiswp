@@ -1,43 +1,44 @@
 -- database: ./w3schools.sqlite
+-- 1. Welche Kunden kommen den aus Mexico?
 SELECT
-  *
+  CustomerName,
+  Country
 FROM
-  categories;
+  Customers
+WHERE
+  Country = 'Mexico';
 
-select distinct
-  city
-from
-  customers
-order by
-  city;
+-- 2. Liste aller Produkte mit einem Preis über 35
+SELECT
+  ProductName,
+  Price
+FROM
+  Products
+WHERE
+  Price > 35;
 
-select
-  ContactName,
-  PostalCode,
-  City
-from
-  customers
-where
-  country = 'USA';
+-- 3. Wie viele Mitarbeiter gibt es in der Datenbank?
+SELECT
+  COUNT(*) AS AnzahlMitarbeiter
+FROM
+  Employees;
 
-select
-  *
-from
-  customers
-where
-  CustomerID != 81;
+-- 4. Welche Produkte gehören zur Kategorie "Beverages"?
+SELECT
+  ProductName
+FROM
+  Products
+  JOIN Categories ON Products.CategoryID = Categories.CategoryID
+WHERE
+  CategoryName = 'Beverages';
 
-select
-  *
-from
-  products
-order by
-  price asc;
-
-select
-  country,
-  city
-from
-  customers
+-- 5. Top 10 teuersten Produkte
+SELECT
+  ProductName,
+  Price
+FROM
+  Products
 ORDER BY
-  country;
+  Price DESC
+LIMIT
+  10;
