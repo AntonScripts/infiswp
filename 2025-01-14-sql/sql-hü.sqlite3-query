@@ -1,0 +1,111 @@
+-- database: c:\Users\Anton\Documents\infiswp\2025-01-14-sql\persons_nullable.sqlite
+INSERT INTO
+  persons (
+    firstname,
+    lastname,
+    displayname,
+    email,
+    sex,
+    birthdate,
+    zodiacsign
+  )
+VALUES
+  (
+    'Anton',
+    'Schmidt',
+    'Anton Schmidt',
+    'antonschmidt@gmail.com',
+    'male',
+    '2009-02-12',
+    'Aquarius'
+  ),
+  (
+    'Franz',
+    'Schmidt',
+    'Franz Schmidt',
+    'franzschmidt@gmail.com',
+    'male',
+    '2000-03-23',
+    'Aquarius'
+  ),
+  (
+    'Jill',
+    'Holle',
+    'Jill Holle',
+    'jillholle@gmail.com',
+    'female',
+    '1990-01-26',
+    'Taurus'
+  );
+
+INSERT INTO
+  persons (
+    firstname,
+    lastname,
+    displayname,
+    email,
+    sex,
+    birthdate,
+    zodiacsign
+  )
+VALUES
+  (
+    'Hellen',
+    'Makler',
+    'Hellen Makler',
+    'hellenmakler@gmail.com',
+    'female',
+    '2001-02-13',
+    NULL
+  ),
+  (
+    'Thomas',
+    'Freier',
+    'Thomas Freier',
+    'thomasfreier@gmail.com',
+    'male',
+    '2000-03-23',
+    NULL
+  ),
+  (
+    'Daniel',
+    'Petrovic',
+    'Daniel Petrovic',
+    'danielpetrovic@gmail.com',
+    'female',
+    '1998-02-12',
+    NULL
+  );
+
+select
+  *
+from
+  persons
+where
+  zodiacsign is null;
+
+select
+  *
+from
+  persons
+where
+  id > 14
+  and zodiacsign is null
+order by
+  zodiacsign;
+
+select
+  displayname
+from
+  persons
+where
+  email is not null
+  and zodiacsign is not null;
+
+select
+  *
+from
+  persons
+where
+  zodiacsign is not null
+  and birthdate < '2007';
