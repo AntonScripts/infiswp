@@ -17,6 +17,8 @@ minus.addEventListener("click", function () {
   x--;
 });
 
+// man kann auch direkt ins HTML den Javascript schreiben zum Beispiel bei der ID - "x--"
+
 /*
 const listItems = document.querySelectorAll("li")
 console.log(listItems);
@@ -42,5 +44,8 @@ function deleteList() {
     alert("Hey, es gibt keine Listenelemente mehr!!!")
   }
 }
+
+
+
 
 
