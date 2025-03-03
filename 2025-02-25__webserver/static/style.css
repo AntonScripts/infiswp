@@ -1,0 +1,16 @@
+button {
+  align-items: center;
+  align-content: center;
+  background-color: #ececec;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 3%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
