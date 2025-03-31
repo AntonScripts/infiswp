@@ -1,6 +1,7 @@
 document.getElementById('colorButton').addEventListener('click', function() {
   const randomColor = getRandomColor();
   document.body.style.backgroundColor = randomColor;
+  
 });
 
 function getRandomColor() {
@@ -10,4 +11,4 @@ function getRandomColor() {
       color += letters[Math.floor(Math.random() * 16)];
   }
   return color;
-}
+}//#endregion
