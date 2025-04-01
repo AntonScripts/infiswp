@@ -107,6 +107,7 @@ function onReset() {
     state.fahrpreis = 0;
     state.ausgabe = "Bitte wählen Sie ein Ziel";
     anzahlPersonenInput.value = 1;
+    einwerfenInput.value = "";
     render();
 }
 
