@@ -6,6 +6,7 @@ const weiterBtn = document.getElementById("weiter-btn");
 
 let aktuelleFrageIndex = 0;
 let antwortRichtig = false;
+let score = 0;
 
 function ladeFrage() {
   const frage = fragen[aktuelleFrageIndex];
@@ -32,9 +33,11 @@ function überprüfeAntwort(button, richtigeAntwort) {
     antwortRichtig = true;
     weiterBtn.disabled = false;
     alleOptionen.forEach((btn) => (btn.disabled = true));
+    score++;
   } else {
     button.classList.add("incorrect");
     button.disabled = true;
+    score--;
   }
 }
 
@@ -44,7 +47,7 @@ weiterBtn.addEventListener("click", () => {
   if (aktuelleFrageIndex < fragen.length) {
     ladeFrage();
   } else {
-    frageText.textContent = "Du hast alle Fragen beantwortet!";
+    frageText.textContent = "Du hast alle Fragen beantwortet! und dein Score ist: " + score;
     optionenContainer.innerHTML = "";
     weiterBtn.style.display = "none";
   }
