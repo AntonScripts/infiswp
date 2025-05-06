@@ -3,6 +3,7 @@ import { fragen } from "./fragen.js";
 const frageText = document.getElementById("frage-text");
 const optionenContainer = document.getElementById("optionen-container");
 const weiterBtn = document.getElementById("weiter-btn");
+const counter = document.getElementById("counter");
 
 let aktuelleFrageIndex = 0;
 let antwortRichtig = false;
@@ -46,6 +47,7 @@ weiterBtn.addEventListener("click", () => {
   aktuelleFrageIndex++;
   if (aktuelleFrageIndex < fragen.length) {
     ladeFrage();
+    counter.textContent = `Frage ${aktuelleFrageIndex + 1} von ${fragen.length}`;
   } else {
     frageText.textContent = "Du hast alle Fragen beantwortet! und dein Score ist: " + score;
     optionenContainer.innerHTML = "";
