@@ -60,3 +60,16 @@ body {
     cursor: not-allowed;
   }
   
+  #quiz-header {
+    font-size: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* vertikal zentrieren, falls nötig */
+    padding: 10px;
+  }
+
+  #antwort-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
